@@ -53,7 +53,7 @@ a:active {
 
 .headline, .headline2 {
     text-align: center;
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.349), rgba(0, 0, 0, 0.438)),url('../img/bg.jpg');
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.349), rgba(0, 0, 0, 0.438)),url('img/bg.jpg');
     background-repeat: no-repeat;
     background-size: cover;    
 	color: white;
@@ -109,8 +109,8 @@ table{
 
 table, th, td {
     border:1px solid rgb(255, 255, 255);
-    
-  }
+    color: white;   
+}
 
 table a{
     color:rgb(255, 253, 253);
@@ -120,6 +120,7 @@ table a{
 .prod{
     height: 150px;
     width: auto;
+    align-self: center;
 }
 
 
