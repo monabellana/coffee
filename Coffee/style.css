@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+body {
+	font-family: Montserrat, sans-serif;
+	font-size: 14px;
+}
+
+.nav-logo img{
+    height: 50px;
+    width: auto;
+}
+
+.header{
+    display:flex;
+    padding: 5px 30px 5px 30px;
+    font-size: 14px;
+    font-weight: bold;
+    color:black;
+    
+}
+
+ul {
+    list-style-type: none;
+    margin-left: auto;
+    padding-right: 0px;
+    }
+
+li{
+    display: inline-block;
+    margin-left: 40px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:link {
+    text-decoration: none;
+  }
+  
+a:visited {
+    text-decoration: none;
+}
+  
+a:hover {
+    text-decoration: underline;
+}
+  
+a:active {
+    text-decoration: underline;
+}
+
+.headline, .headline2 {
+    text-align: center;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.349), rgba(0, 0, 0, 0.438)),url('../img/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;    
+	color: white;
+    padding: 130px 130px 130px 130px;
+}
+
+.headline2{
+    padding:100px;
+}
+
+
+.headline p, .headline2 p{
+    font-size: 20px;
+    padding-top: 20px; 
+}
+
+.headline2 p{
+    font-size: 14px;
+}
+
+.headline h1, .headline h2{
+    margin:0;
+    padding-bottom: 30px;
+    font-size: 80px;
+    font-weight: bold;
+}
+.headline2 h2{
+    margin:0;
+    padding-bottom: 30px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.button-headline{
+    padding: 10px 40px 10px 40px;
+    font-size: 12px;
+    font-weight: bold;
+    border: 0px solid #ccc;
+    border-radius: 30px;
+    background-color:rgb(236, 198, 94);
+    color:rgb(46, 35, 4);
+}
+
+
+.buttons a{
+    display:block;
+    padding-bottom: 15px;
+}
+
+table{
+    align-items: center;
+}
+
+table, th, td {
+    border:1px solid rgb(255, 255, 255);
+    
+  }
+
+table a{
+    color:rgb(255, 253, 253);
+    font-weight: bold;
+}
+
+.prod{
+    height: 150px;
+    width: auto;
+}
+
+
+.footer p{
+    text-align: center;
+    padding:20px;
+    margin:0;
+    font-size: 12px;
+    color:rgb(0, 0, 0);
+    float:bottom;
+}
+
